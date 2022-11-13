@@ -12,7 +12,6 @@
 char** format_number(char* number[]){ //maybe just multithread this for no reason in the future
     char prefix[] = "tel://+";
     char* concat = (char*)malloc(sizeof(char) * (8 + 11)); // allocating size of prefix plus number, not including prefixed null char
-   // char* background_flag = (char*)malloc(sizeof(char) * strlen("--background")); 
 
     for(int i = 0; 1; i++){
         if(i < 7){
@@ -32,8 +31,6 @@ char** format_number(char* number[]){ //maybe just multithread this for no reaso
     output[2] = "--background";
     output[3] = number[2];
 
-
-    //number[1] = concat;
     return output;
 }
 
