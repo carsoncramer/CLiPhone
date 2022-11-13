@@ -28,7 +28,7 @@ char** format_number(char* number[]){ //maybe just multithread this for no reaso
     char** output = (char**)malloc(sizeof(char*) * 4);
     output[0] = number[0];
     output[1] = concat;
-    output[2] = "--background";
+    output[2] = "-j";
     output[3] = number[2];
 
     return output;
