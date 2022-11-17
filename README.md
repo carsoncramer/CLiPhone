@@ -24,4 +24,4 @@ call {insert number here}
 ```
 To initiate the phone call!
 
-Soon I am planning on using the Levenshtein distance on your contacts to guess what person you are talking about and call that nuber. ie. "call john d" will initiate a call to John Doe if he is in your contacts. Stay tuned!
+Soon I am planning on using the Levenshtein distance on your contacts to guess what person you are talking about and call that number. ie. "call john d" will initiate a call to John Doe if he is in your contacts. Stay tuned!
